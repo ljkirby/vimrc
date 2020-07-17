@@ -1,12 +1,12 @@
 set number
 execute pathogen#infect()
 filetype plugin indent on
-set expandtab ts=4 sw=4 ai
+set expandtab ts=2 sw=2 ai
+set hlsearch
 syntax on
 set splitbelow
 autocmd vimenter * NERDTree
 let g:NERDTreeWinPos = "left"
-colorscheme afterglow 
 
 if has('gui_running')
     set guifont=Consolas:h10
